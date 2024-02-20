@@ -1,0 +1,358 @@
+    *{box-sizing: border-box;
+      margin: 0;
+      padding: 0;}
+      
+      
+      
+      html, body{
+        background-color:#b38600;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+   
+      #central{
+        position: relative;
+        grid-column: span 12;
+      }
+      
+      @media screen and (max-width:729px){
+        div.sandraTop{
+          background-image: url("https://sandra-music.com/images/galleries/jimrakete/shooting_1992_015.jpg");
+          grid-column: span 12;
+        }
+        div.sandraTopText{
+          text-align: center;
+          position: relative;
+          top: 60%;
+          left: 50%;
+          transform: translate(-40%, -50%);
+          color:#3e3418;
+        }
+        img.sandraImage{
+          width: 100px;
+          height: 100px;
+        }
+        .textEmail{
+          font-size: 2.7vw;
+          text-decoration: none;
+        }
+        .emailButton{
+          font-size: 2.7vw;
+        }
+        div.emailPetition{
+          margin-top: 3px;
+          padding-top:10vw; 
+          padding-bottom: 10vw;
+        }
+        #text{
+          font-size: 4vw;
+        }
+        .spotify{
+          width: 100%;
+          height: 90px;
+        }
+        .emailButton{
+          border: 3px solid grey;
+          border-radius: 2cap;
+          padding-left: 2vw;
+        }
+        .anchorLogo{
+          width: 7vw;
+          height: 7vw;
+        }
+      }
+      @media screen and (min-width:729px)
+                    and (max-width:990px){
+          div.sandraTop{
+          background-image: url("https://sandra-music.com/images/galleries/live/live_002h.jpg");
+          grid-column: span 12;
+          }
+          div.sandraTopText{
+            text-align: center;
+            position: relative;
+            top: 50%;
+            left: 30%;
+            transform: translate(-40%, -50%);
+          }
+          img.sandraImage{
+            width: 200px;
+            height: 200px;
+          }
+          .textEmail{
+            font-size: 2.5vw;
+            text-decoration: none;
+          }
+          .emailButton{
+            font-size: 2vw;
+          }
+          #text{
+            font-size: 2vw;
+          }
+          .spotify{
+            width: 100%;
+            height: 170px;
+          }
+          div.emailPetition{
+            margin-top: 3px;
+            padding-top: 3vw;
+            padding-bottom: 10vw;
+          }
+          .emailButton{
+          border: 5px solid grey;
+          border-radius: 2.5cap;
+          }
+          .anchorLogo{
+            width: 8vw;
+            height: 8vw;
+          }
+      }
+
+       
+      
+
+      @media screen and (max-width:990px)
+      {
+        body{
+          display: grid;
+          grid-template-columns: repeat(12,1fr);
+          margin: 0;
+          padding: 0;
+        }
+        div.streamingIframe{
+          display: grid;
+          grid-column:span 12;
+        }
+        div.iframeDiv{
+          grid-column: span 12;
+          margin-top: -0.5em;
+          margin-bottom: 1em;
+        }
+        div.streamingEmail{
+          height: auto;
+          grid-column: span 12;
+          margin-bottom: 1em;
+          float: none;
+        }
+        
+        div.enlargeStreamingEmail{
+          grid-column: span 12;
+        }
+        div.iframeDiv{
+          margin-top: -1em;
+        }
+        
+        .linkImage{
+          width: 30px;
+          height: 30px;
+        }
+      
+      }
+      @media  screen and (min-width:990px ){
+        .textEmail{
+          font-size: 3vh;
+        }
+        
+        .iframeDivShrink{
+          margin: 1em;
+          padding: 1em;
+          width: 55% ;
+          filter: sepia(1);
+        }
+        .enlargeStreamingEmail{
+          float: left;
+          width: 40%;
+          margin-bottom: -0.5em;
+          border: 0.7cap inset black;
+        }
+        #text{
+          font-size: 1.3em;
+        }
+        .spotify{
+          width: 100%;
+          height: 490px;
+        }
+        .emailButton{
+          border: 10px solid grey;
+          border-radius: 3cap;
+        }
+        .anchorLogo{
+          width: 7vh;
+          height: 7vh;
+        }
+        .emailPetition{
+          margin-top: 3px;
+          padding-top:3vw; 
+          padding-bottom: 10vw;
+        }
+      }
+      
+      .sandraImage{
+        float: left;
+        width: 400px;
+        height: 400px;
+        filter: sepia(1);
+        border-radius:2em;
+        margin-right: 1em;
+        margin-left: 1em;
+        margin-top: 1em;
+      }
+      
+      a{
+        color: black;
+      }
+      
+      .sandraTop {
+        position: relative;
+        background-image: url("https://www.sandra-music.com/images/galleries/shooting002/shooting_1987_001f.jpg");
+        filter: sepia(1);
+        background-color:#b38600;
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+      }
+
+      .sandraTopText {
+        text-align: left;
+        text-decoration: underline;
+        position: relative;
+        top: 25%;
+        left: 10%;
+        color: white;
+        font-family: 'Deutsch Gothic';
+        font-size:5vw;
+        -webkit-text-stroke: 1px #b38600;
+        float: left;
+      }
+      .iconImg{
+        width: 50px;
+        height: 50px;
+      }
+      
+      .enlargeImage{
+        width: 80px;
+        height: 80px;
+      }
+      
+      .streamingIframe{
+        display: flex;
+        min-height: 300px;
+
+      }
+      .iframeDiv{
+        margin-left:0;
+        margin-bottom: -0.5em;
+        padding: 0%;
+        flex: 1;
+        height: 100%;
+        float: left;
+        filter: sepia(1);
+      }
+
+      .streamingEmail{
+        float: left;
+        flex: 1;
+        margin-bottom: -0.5em;
+        padding: 1em;
+        border: 0.7cap inset black;
+      }
+      
+      .streaming{
+        width: 100%;  
+        height: 30%;
+        display: grid;  
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        margin-bottom: -2em;
+        padding-top: 5vw;
+        padding-bottom: 5vw;   
+      }
+
+      .emailPetition{
+        align-items: stretch;
+        height: 60%;
+      }
+
+      .emailButton{
+        padding: 2vw;
+        background-color: black;
+        color: #b38600;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        position: relative;
+        left:40%;
+        bottom: 20%;
+      }
+      .textEmail{
+        position: relative;
+        padding: 2em;
+        width: 100%;
+        margin-top: -0.5em;
+        margin-bottom: -0.5em;
+        text-align: justify;
+        font-family: cursive;
+        text-decoration: none;
+      }
+
+      .shareVia{
+        position: relative;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+        height: 10%;
+        margin-top: -0.5em;
+        margin-bottom: 0;
+        padding-top: 6vw;
+      }
+      .shareLink{
+        padding-left: 0svw;
+        padding-right: 0svw;
+      }
+      .anchorLogo{
+        margin-left: 7vh;
+      }
+      .enlargeAnchorLogo{
+        margin-left: 8vh;
+        width: 8vh;
+        height: 8vh;
+        background-color: #916f0b;
+      }
+      .labels{
+        position: relative;
+        top: 10%;
+      }
+      .labels>a{
+        position: relative;
+        left: 30%;
+      }
+      #text{
+        text-indent: 2em;
+        padding: 1em;
+        text-align:justify;
+        font-family:cursive;
+        padding: 15px;
+      }
+      #text::first-letter{
+        font-size: x-large;
+        font-weight: 600;
+      }
+     #text, .iframeDiv, .streamingEmail, .spotify {
+        border: 0.7cap inset gray;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+     
+      .emailPetition, .streaming, .sandraTop {
+        border-bottom: 0.7cap inset rgb(170, 161, 144);
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+     }
+     
+     
